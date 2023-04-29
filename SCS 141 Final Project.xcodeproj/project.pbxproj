@@ -13,6 +13,15 @@
 		D90C793629FD9A7300EBF584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90C793429FD9A7300EBF584 /* Main.storyboard */; };
 		D90C793829FD9A7500EBF584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90C793729FD9A7500EBF584 /* Assets.xcassets */; };
 		D90C793B29FD9A7500EBF584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90C793929FD9A7500EBF584 /* LaunchScreen.storyboard */; };
+		D90C794529FD9C9A00EBF584 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90C794429FD9C9A00EBF584 /* MenuView.swift */; };
+		D936211D29FD9FC30020408E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D936211C29FD9FC30020408E /* WebKit.framework */; };
+		D936212529FDA82D0020408E /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D936212429FDA82D0020408E /* ReviewViewController.swift */; };
+		D94ADCCE29FDB2E900DCCE6F /* png-transparent-pizza-margherita-sushi-pizza-pizza-delivery-pizza-thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = D94ADCCD29FDB2E900DCCE6F /* png-transparent-pizza-margherita-sushi-pizza-pizza-delivery-pizza-thumbnail.png */; };
+		D94ADCD029FDB3C600DCCE6F /* next button.png in Resources */ = {isa = PBXBuildFile; fileRef = D94ADCCF29FDB3C600DCCE6F /* next button.png */; };
+		D94ADCD229FDBC1F00DCCE6F /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94ADCD129FDBC1F00DCCE6F /* LocationViewController.swift */; };
+		D969F36729FDC10400308E7D /* dominos.png in Resources */ = {isa = PBXBuildFile; fileRef = D969F36629FDC10400308E7D /* dominos.png */; };
+		D969F36929FDC16F00308E7D /* review.png in Resources */ = {isa = PBXBuildFile; fileRef = D969F36829FDC16F00308E7D /* review.png */; };
+		D969F36B29FDC1CF00308E7D /* order.png in Resources */ = {isa = PBXBuildFile; fileRef = D969F36A29FDC1CF00308E7D /* order.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		D90C793729FD9A7500EBF584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D90C793A29FD9A7500EBF584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D90C793C29FD9A7500EBF584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90C794429FD9C9A00EBF584 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		D936211C29FD9FC30020408E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D936212429FDA82D0020408E /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		D94ADCCD29FDB2E900DCCE6F /* png-transparent-pizza-margherita-sushi-pizza-pizza-delivery-pizza-thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "png-transparent-pizza-margherita-sushi-pizza-pizza-delivery-pizza-thumbnail.png"; path = "../../../../Downloads/png-transparent-pizza-margherita-sushi-pizza-pizza-delivery-pizza-thumbnail.png"; sourceTree = "<group>"; };
+		D94ADCCF29FDB3C600DCCE6F /* next button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "next button.png"; path = "../../../../Downloads/next button.png"; sourceTree = "<group>"; };
+		D94ADCD129FDBC1F00DCCE6F /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		D969F36629FDC10400308E7D /* dominos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dominos.png; path = ../../../../Downloads/dominos.png; sourceTree = "<group>"; };
+		D969F36829FDC16F00308E7D /* review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = review.png; path = ../../../../Downloads/review.png; sourceTree = "<group>"; };
+		D969F36A29FDC1CF00308E7D /* order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = order.png; path = ../../../../Downloads/order.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D936211D29FD9FC30020408E /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,7 @@
 			children = (
 				D90C792D29FD9A7300EBF584 /* SCS 141 Final Project */,
 				D90C792C29FD9A7300EBF584 /* Products */,
+				D936211B29FD9FC20020408E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +79,28 @@
 				D90C792E29FD9A7300EBF584 /* AppDelegate.swift */,
 				D90C793029FD9A7300EBF584 /* SceneDelegate.swift */,
 				D90C793229FD9A7300EBF584 /* ViewController.swift */,
+				D90C794429FD9C9A00EBF584 /* MenuView.swift */,
+				D936212429FDA82D0020408E /* ReviewViewController.swift */,
+				D94ADCD129FDBC1F00DCCE6F /* LocationViewController.swift */,
 				D90C793429FD9A7300EBF584 /* Main.storyboard */,
+				D94ADCCD29FDB2E900DCCE6F /* png-transparent-pizza-margherita-sushi-pizza-pizza-delivery-pizza-thumbnail.png */,
+				D94ADCCF29FDB3C600DCCE6F /* next button.png */,
+				D969F36629FDC10400308E7D /* dominos.png */,
+				D969F36829FDC16F00308E7D /* review.png */,
+				D969F36A29FDC1CF00308E7D /* order.png */,
 				D90C793729FD9A7500EBF584 /* Assets.xcassets */,
 				D90C793929FD9A7500EBF584 /* LaunchScreen.storyboard */,
 				D90C793C29FD9A7500EBF584 /* Info.plist */,
 			);
 			path = "SCS 141 Final Project";
+			sourceTree = "<group>";
+		};
+		D936211B29FD9FC20020408E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D936211C29FD9FC30020408E /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +161,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D969F36B29FDC1CF00308E7D /* order.png in Resources */,
 				D90C793B29FD9A7500EBF584 /* LaunchScreen.storyboard in Resources */,
+				D94ADCD029FDB3C600DCCE6F /* next button.png in Resources */,
 				D90C793829FD9A7500EBF584 /* Assets.xcassets in Resources */,
+				D969F36929FDC16F00308E7D /* review.png in Resources */,
+				D94ADCCE29FDB2E900DCCE6F /* png-transparent-pizza-margherita-sushi-pizza-pizza-delivery-pizza-thumbnail.png in Resources */,
 				D90C793629FD9A7300EBF584 /* Main.storyboard in Resources */,
+				D969F36729FDC10400308E7D /* dominos.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +180,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D90C793329FD9A7300EBF584 /* ViewController.swift in Sources */,
+				D936212529FDA82D0020408E /* ReviewViewController.swift in Sources */,
+				D90C794529FD9C9A00EBF584 /* MenuView.swift in Sources */,
+				D94ADCD229FDBC1F00DCCE6F /* LocationViewController.swift in Sources */,
 				D90C792F29FD9A7300EBF584 /* AppDelegate.swift in Sources */,
 				D90C793129FD9A7300EBF584 /* SceneDelegate.swift in Sources */,
 			);
@@ -290,6 +334,7 @@
 				DEVELOPMENT_TEAM = 9ND25NK39M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SCS 141 Final Project/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = Yes;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +363,7 @@
 				DEVELOPMENT_TEAM = 9ND25NK39M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SCS 141 Final Project/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = Yes;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
